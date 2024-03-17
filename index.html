@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Akaya+Kanadaka&family=Madimi+One&family=Noto+Music&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet"> 
 
 </head>
 <body>
@@ -15,215 +16,28 @@
 
 
 
+<section class="container"> 
+   <br>
+    <h1>Random Notes for Trumpet    </h1>
+    <p class="text1">Click in "Random Note" to generate a note, play in the trumpet and click in the other buttom to compare the sound.</p>
+    <button class="buttonn" onclick="noteRandom()" >Random Note</button>
+    <button class="buttonn" id="fnum" onclick= "jsNota(sound)" >Sound</button>
+    
+    <br>
+
+    <img id="imagenMostrada" src="" alt="Music Notes " class="pnote">
+
+    <p>Created by Rafael Osorio 2024 All Rights Reserved  &copy; </p>
+
+
+
+
+</section>
+
+
+<script src="script.js"></script>
+
+</section>
+
 </body>
-
-<h1>NOTES TRUMPET </h1>
-<section class="gpenta" id="gpenta">
-
-    <section class="symbg" id="symbols">
-        <div>G</div>
-
-
-    </section>
-
-<!--    <section class="col1">
-    <div class="note1-1"> </div>
-    <div class="note1-2"></div>
-    <div class="note1-3"> </div>
-    <div class="note1-4"></div>
-    <div class="note1-5"> </div>
-    <div class="note1-6"> </div>
-    <div class="note1-7"> </div>
-    <div class="note1-8"> </div>
-    <div class="note1-9"> </div>
-    <div class="note1-10"> </div>
-    <div class="note1-11"> </div>
-    <div class="note1-12"> </div>
-    <div class="note1-13"> </div>
-    <div class="note1-14"> </div>
-    <div class="note1-15">q</div>
-    <div class="note1-16"> </div>
-    <div class="note1-17"> </div>
-    <div class="note1-18"> </div>
-    <div class="note1-19"> </div>
-    <div class="note1-20"> </div>
-
-
-
-   
-</section>
-
-    <section class="col2">
-    <div class="note1-1"></div>
-    <div class="note1-2">q</div>
-    <div class="note1-3"></div>
-    <div class="note1-4">q</div>
-    <div class="note1-5"></div>
-    <div class="note1-6">q</div>
-    <div class="note1-7"></div>
-    <div class="note1-8">q</div>
-    <div class="note1-9"></div>
-    <div class="note1-10">q</div>
-    <div class="note1-11"></div>
-    <div class="note1-12">q</div>
-    <div class="note1-13"></div>
-    <div class="note1-14">q</div>
-    <div class="note1-15"></div>
-    <div class="note1-16">q</div>
-    <div class="note1-17"></div>
-    <div class="note1-18">q</div>
-    <div class="note1-19"></div>
-    <div class="note1-20">q</div>
-
-
-
-   
-</section>
-
-    <section class="col3">
-    <div class="note1-1">q</div>
-    <div class="note1-2"></div>
-    <div class="note1-3">q</div>
-    <div class="note1-4"></div>
-    <div class="note1-5">q</div>
-    <div class="note1-6"></div>
-    <div class="note1-7">q</div>
-    <div class="note1-8"></div>
-    <div class="note1-9">q</div>
-    <div class="note1-10"></div>
-    <div class="note1-11">q</div>
-    <div class="note1-12"></div>
-    <div class="note1-13">q</div>
-    <div class="note1-14"></div>
-    <div class="note1-15">q</div>
-    <div class="note1-16"></div>
-    <div class="note1-17">q</div>
-    <div class="note1-18"></div>
-    <div class="note1-19">q</div>
-    <div class="note1-20"></div>
-
-
-
-   
-</section>
-
-    <section class="col4">
-    <div class="note1-1"></div>
-    <div class="note1-2">q</div>
-    <div class="note1-3"></div>
-    <div class="note1-4">q</div>
-    <div class="note1-5"></div>
-    <div class="note1-6">q</div>
-    <div class="note1-7"></div>
-    <div class="note1-8">q</div>
-    <div class="note1-9"></div>
-    <div class="note1-10">q</div>
-    <div class="note1-11"></div>
-    <div class="note1-12">q</div>
-    <div class="note1-13"></div>
-    <div class="note1-14">q</div>
-    <div class="note1-15"></div>
-    <div class="note1-16">q</div>
-    <div class="note1-17"></div>
-    <div class="note1-18">q</div>
-    <div class="note1-19"></div>
-    <div class="note1-20">q</div>
-
-
-
-   
-</section>
-
-    <section class="col5">
-    <div class="note1-1">q</div>
-    <div class="note1-2"></div>
-    <div class="note1-3">q</div>
-    <div class="note1-4"></div>
-    <div class="note1-5">q</div>
-    <div class="note1-6"></div>
-    <div class="note1-7">q</div>
-    <div class="note1-8"></div>
-    <div class="note1-9">q</div>
-    <div class="note1-10"></div>
-    <div class="note1-11">q</div>
-    <div class="note1-12"></div>
-    <div class="note1-13">q</div>
-    <div class="note1-14"></div>
-    <div class="note1-15">q</div>
-    <div class="note1-16"></div>
-    <div class="note1-17">q</div>
-    <div class="note1-18"></div>
-    <div class="note1-19">q</div>
-    <div class="note1-20"></div>
-
-
-
-   
-</section>
--->
-
-
-
-<div class="pentag" id="pentagrama">
-
-    <tr>_______________________________________________________________________________________________________________________________________________________</tr>
-    <tr>_______________________________________________________________________________________________________________________________________________________</tr>
-    <tr>_______________________________________________________________________________________________________________________________________________________</tr>
-    <tr>_______________________________________________________________________________________________________________________________________________________</tr>
-    <tr>_______________________________________________________________________________________________________________________________________________________</tr>
-
- </div>
-
-
-
-<button class="bn1" onclick= "jsNota(164.81)"> F#</button>
-<button class="bn2" onclick= "jsNota(174.61)"> G</button>
-<button class="bn3" onclick= "jsNota(185)"> G#</button>
-<button class="bn4" onclick= "jsNota(196)"> A</button>
-<button class="bn5" onclick= "jsNota(207.65)"> A#</button>
-<button class="bn6" onclick= "jsNota(220)"> B</button>
-<button class="bn7" onclick= "jsNota(233.08)"> C</button>
-<button class="bn8" onclick= "jsNota(246.94)"> C#</button>
-<button class="bn9" onclick= "jsNota(261.63)"> D</button>
-<button class="bn10" onclick= "jsNota(277.18)"> D#</button>
-<button class="bn11" onclick= "jsNota(293.66)"> E </button>
-<button class="bn12" onclick= "jsNota(311.13)"> F</button>
-<button class="bn13" onclick= "jsNota(329.63)"> F#</button>
-<button class="bn14" onclick= "jsNota(349.23)"> G</button>
-<button class="bn15" onclick= "jsNota(369.99)"> G#</button>
-<button class="bn16" onclick= "jsNota(392)"> A</button>
-<button class="bn17" onclick= "jsNota(415.3)"> A#</button>
-<button class="bn18" onclick= "jsNota(440)"> B</button>
-<button class="bn19" onclick= "jsNota(466.16)"> C</button>
-
-
-
-
-
-
-
-
-
-</section>
-
-
-<script>
-    var context= new AudioContext();
-    
-    function jsNota(frecuencia) {
-    var o = context.createOscillator();
-    g = context.createGain();
-    o.connect(g);
-    o.type="sawtooth";
-    o.frequency.value = frecuencia ;
-    g.connect(context.destination);
-    o.start(0);
-    g.gain.exponentialRampToValueAtTime(0.00001, context.currentTime +1.5);
-    
-    
-    }
-    
-    </script>
-
-
 </html>
